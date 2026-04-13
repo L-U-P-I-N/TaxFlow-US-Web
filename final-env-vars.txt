@@ -1,0 +1,48 @@
+# FINAL ENVIRONMENT VARIABLES FOR RAILWAY/RENDER
+# Copy and paste these exactly as shown
+
+# ==============================================
+# FIREBASE CONFIGURATION
+# ==============================================
+
+# Frontend Firebase (VITE_ prefix for client-side)
+VITE_FIREBASE_API_KEY=AIzaSyCbndaudP4PrmaoWY85trrFrevCadzjNKM
+VITE_FIREBASE_AUTH_DOMAIN=gen-lang-client-0618962870.firebaseapp.com
+VITE_FIREBASE_PROJECT_ID=gen-lang-client-0618962870
+VITE_FIREBASE_STORAGE_BUCKET=gen-lang-client-0618962870.firebasestorage.app
+VITE_FIREBASE_MESSAGING_SENDER_ID=1085243796254
+VITE_FIREBASE_APP_ID=1:1085243796254:web:4b88002058c97fb076770f
+
+# Backend Firebase (server-side)
+FIREBASE_PROJECT_ID=gen-lang-client-0618962870
+
+# ==============================================
+# GEMINI AI
+# ==============================================
+GEMINI_API_KEY=your_gemini_api_key_here
+
+# ==============================================
+# STRIPE PAYMENT
+# ==============================================
+STRIPE_PUBLIC_KEY=pk_test_51TLXzIEgWCgUtDApv9b42T7j9J4nK5QmQlfP4I2
+STRIPE_SECRET_KEY=sk_test_51TLXzIEgWCgUtDAp6YMy62ehMooDlgQ656Hl8iR5sZteiRoz0sHyXw0k2nLVsUgVKygN2hWNMRXvQHbpeYJDij5M00CRyathLe
+STRIPE_WEBHOOK_SECRET=whsec_0Qj5Hrmo62ZjsvrRGUvceRapfRejRm7C
+
+# ==============================================
+# NODE ENVIRONMENT
+# ==============================================
+NODE_ENV=production
+
+# ==============================================
+# AUTO-SET BY PLATFORM (Don't add manually)
+# ==============================================
+# PORT=3000 (set by Railway/Render)
+# APP_URL=https://your-app.railway.app (set by Railway/Render)
+
+# ==============================================
+# IMPORTANT NOTES:
+# ==============================================
+# - Only GEMINI_API_KEY needs to be replaced with your actual key
+# - Firebase and Stripe keys are already included
+# - Never commit real keys to Git repositories
+# - These are TEST keys - change to LIVE keys for production
